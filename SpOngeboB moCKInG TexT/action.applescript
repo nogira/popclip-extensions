@@ -26,7 +26,7 @@ SOFTWARE.
 set prevClipboard to (the clipboard)
 set inputString to "{popclip text}"
 
-set outputString to do shell script "python -c \"
+set the clipboard to (do shell script "python -c \"
 import random as rand
 inputString = '" & inputString & "'.lower()
 outputString = ''
@@ -37,10 +37,8 @@ for char in inputString:
 	else:
 		outputString += char.upper()
 
-print outputString
-\""
-
-set the clipboard to outputString
+print(outputString)
+\"")
 
 tell application "System Events"
 	keystroke "v" using command down
