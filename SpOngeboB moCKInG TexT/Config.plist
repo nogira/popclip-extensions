@@ -5,36 +5,34 @@
 	<key>Actions</key>
 	<array>
 		<dict>
+			<key>Title</key>
+			<string>SpOngeboB moCKInG TexT</string>
 			<key>AppleScript File</key>
 			<string>action.applescript</string>
 			<key>Image File</key>
 			<string>icon.png</string>
 			<key>Long Running</key>
 			<true/>
-			<key>Title</key>
-			<string>SpOngeboB moCKInG TexT</string>
 		</dict>
 	</array>
-	<key>Apps</key>
-	<array>
-		<dict>
-			<key>Bundle Identifier</key>
-			<string></string>
-			<key>Check Installed</key>
-			<true/>
-			<key>Link</key>
-			<string></string>
-			<key>Name</key>
-			<string>SpOngeboB moCKInG TexT</string>
-		</dict>
-	</array>
-	<key>Extension Description</key>
-	<string>Convert selected text to spongebob mocking text.</string>
 	<key>Extension Identifier</key>
 	<string>com.nogira.popclip-extensions.SpOngeboB-moCKInG-TexT</string>
 	<key>Extension Name</key>
 	<string>moCKInG TexT</string>
+	<key>Extension Long Name</key>
+	<string>SpOngeboB moCKInG TexT</string>
+	<key>Extension Description</key>
+	<string>Convert selected text to spongebob mocking text.</string>
 	<key>Required Software Version</key>
 	<integer>701</integer>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>nogira</string>
+			<key>Link</key>
+			<string>https://github.com/nogira</string>
+		</dict>
+	</array>
 </dict>
 </plist>
