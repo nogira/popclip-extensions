@@ -1,6 +1,7 @@
 # Popclip Extensions
 
 [Link to Popclip](https://pilotmoon.com/popclip/)
+
 Popclip is an app that allows you to run certain actions/functions on text you have selected.
 
 <br>
