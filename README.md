@@ -8,7 +8,7 @@ Popclip is an app that allows you to run certain actions/functions on text you h
 
 [Information on how to make your own extension.](https://github.com/pilotmoon/PopClip-Extensions)
 
-While you usually need to understand either applscript of shell to make an extension, if you copy my code, and just edit inside the python script embedded in the applescript, all you need to really know is some basic python. (It also runs _significantly_ faster vs. applscript or shell.)
+While you usually need to understand either applescript or shell to make an extension, if you copy my code, and just edit the python script embedded in the applescript, all you need to really know is some basic python. (It also runs _significantly_ faster vs. applscript or shell.)
 
 <br>
 
