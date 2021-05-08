@@ -16,9 +16,9 @@ While you usually need to understand either applscript of shell to make an exten
 
 - [SpOngeboB moCKInG TexT](SpOngeboB%20moCKInG%20TexT/README.md)
 
-- [UPPERCASE]((UPPERCASE/README.md))
+- [UPPERCASE](UPPERCASE/README.md)
 
-- [lowercase]((lowercase/README.md))
+- [lowercase](lowercase/README.md)
 
 ## How to Install an Extension
 
