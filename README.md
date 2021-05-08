@@ -1,2 +1,12 @@
-# popclip-ext-spongebob
-Popclip extension that converts selected text to spongebob mocking text.
+# Popclip Extensions
+
+[Link to Popclip](https://pilotmoon.com/popclip/)
+Popclip is an app that allows you to run certain actions/functions on text you have selected.
+
+List of My Extensions:
+
+- Converts text to spongebob mocking text.
+
+- Converts text to uppercase
+
+- Converts text to lowercase
