@@ -7,4 +7,4 @@ Before|After
 testing this extension|tEStinG This extenSIOn
 
 
-![image](/Extras%20(not%20needed%20to%20run%20extension)/source%20image.png)
+![image](/Extras%20(not%20needed%20to%20run%20extension)/source_image.png)
