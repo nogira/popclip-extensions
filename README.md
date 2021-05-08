@@ -8,11 +8,11 @@ Popclip is an app that allows you to run certain actions/functions on text you h
 
 ## List of My Extensions:
 
-- [Converts text to spongebob mocking text.](SpOngeboB moCKInG TexT/README.md)
+- [SpOngeboB moCKInG TexT](SpOngeboB%20moCKInG%20TexT/README.md)
 
-- Converts text to uppercase
+- [UPPERCASE]((UPPERCASE/README.md))
 
-- Converts text to lowercase
+- [lowercase]((lowercase/README.md))
 
 ## How to Install an Extension
 
