@@ -5,36 +5,32 @@
 	<key>Actions</key>
 	<array>
 		<dict>
+			<key>Title</key>
+			<string>lowercase</string>
 			<key>AppleScript File</key>
 			<string>action.applescript</string>
 			<key>Image File</key>
 			<string>icon.png</string>
 			<key>Long Running</key>
 			<true/>
-			<key>Title</key>
-			<string>lowercase</string>
 		</dict>
 	</array>
-	<key>Apps</key>
-	<array>
-		<dict>
-			<key>Bundle Identifier</key>
-			<string></string>
-			<key>Check Installed</key>
-			<true/>
-			<key>Link</key>
-			<string></string>
-			<key>Name</key>
-			<string>lowercase</string>
-		</dict>
-	</array>
-	<key>Extension Description</key>
-	<string>Convert selected text to lowercase.</string>
 	<key>Extension Identifier</key>
 	<string>com.nogira.popclip-extensions.lowercase</string>
 	<key>Extension Name</key>
 	<string>lowercase</string>
+	<key>Extension Description</key>
+	<string>Convert selected text to lowercase.</string>
 	<key>Required Software Version</key>
 	<integer>701</integer>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>nogira</string>
+			<key>Link</key>
+			<string>https://github.com/nogira</string>
+		</dict>
+	</array>
 </dict>
 </plist>
