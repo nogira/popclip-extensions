@@ -31,7 +31,7 @@
 	<key>Extension Description</key>
 	<string>Convert selected text to spongebob mocking text.</string>
 	<key>Extension Identifier</key>
-	<string>com.nogira.SpOngeboB-moCKInG-TexT</string>
+	<string>com.nogira.popclip-extensions.SpOngeboB-moCKInG-TexT</string>
 	<key>Extension Name</key>
 	<string>moCKInG TexT</string>
 	<key>Required Software Version</key>
