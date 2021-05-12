@@ -1,6 +1,6 @@
 # Sci-Hub <img src="icon.png" alt="image" width="30"/>
 
-Select a DOI/PMID/title and it should send you to the file on sci-hub. The url is randomly generated from a frequently updated list, so if one url doesn't work, just try again and it will try with a new link that will likely work.
+Select a DOI and it should send you to the file on sci-hub. If the URL does not work in the future, there is an updated list [here](https://sci-hub-links.com).
 
 <br>
 
