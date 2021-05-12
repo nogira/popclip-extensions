@@ -41,6 +41,8 @@ inputString = os.environ.get('POPCLIP_TEXT', '')
 
 import urllib.request
 html = urllib.request.urlopen("https://sci-hub-links.com").read().decode("utf8")
+# remove styling & script text to speedup findall()
+html = html[10020:]
 
 import re
 urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', html)
