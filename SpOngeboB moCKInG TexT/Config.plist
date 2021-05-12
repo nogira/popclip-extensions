@@ -7,11 +7,17 @@
 		<dict>
 			<key>Title</key>
 			<string>SpOngeboB moCKInG TexT</string>
-			<key>AppleScript File</key>
-			<string>action.applescript</string>
+			<key>Shell Script File</key>
+			<string>action.py</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/python</string>
 			<key>Image File</key>
 			<string>icon.png</string>
 			<key>Long Running</key>
+			<true/>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Restore Pasteboard</key>
 			<true/>
 		</dict>
 	</array>
