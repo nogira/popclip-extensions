@@ -1,4 +1,4 @@
-# Sci-Hub
+# Sci-Hub <img src="icon.png" alt="image" width="30"/>
 
 Select a link and it should send you to the file on sci-hub. The url is randomly generated from a frequently updated list, so if one urls doesn't work, just try again and it will try with a neew link that will likely work.
 
