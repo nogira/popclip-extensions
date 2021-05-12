@@ -6,5 +6,4 @@ Before|After
 -|-
 testing this extension|tEStinG This extenSIOn
 
-
-![image|200](icon.png)
+<img src="https://mobilesyrup.com/wp-content/uploads/2019/01/mocking-spongebob.jpg" alt="image" width="300"/>
