@@ -1,4 +1,4 @@
-# SpOngeboB moCKInG TexT <img src="icon.png" alt="image" width="100"/>
+# SpOngeboB moCKInG TexT <img src="icon.png" alt="image" width="30"/>
 
 Converts all selected text to uppercase spongebob mocking text.
 
