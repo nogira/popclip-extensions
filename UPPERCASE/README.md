@@ -1,4 +1,4 @@
-# UPPERCASE
+# UPPERCASE <img src="icon.png" alt="icon" width="30"/>
 
 Converts all selected text to uppercase.
 
