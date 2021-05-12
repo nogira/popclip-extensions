@@ -8,6 +8,8 @@ Popclip is an app that allows you to run certain actions/functions on text you h
 
 ## List of My Extensions:
 
+- [Sci-Hub](Sci-Hub/README.md)
+
 - [SpOngeboB moCKInG TexT](SpOngeboB%20moCKInG%20TexT/README.md)
 
 - [UPPERCASE](UPPERCASE/README.md)
