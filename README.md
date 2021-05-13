@@ -8,7 +8,7 @@ Popclip is an app that allows you to run certain actions/functions on text you h
 
 ## List of My Extensions:
 
-- [Fancy Text [WIP]](Fancy%20Text/README.md)
+- [Fancy Text [WIP]](/Fancy%20Text)
 
 - [Sci-Hub](Sci-Hub/README.md)
 
