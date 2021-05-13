@@ -2,5 +2,7 @@
 
 A window pops up that allows you to select from multiple different text styles.
 
+<br>
+
 ### Known Bugs
 - Some text styles show the preview text twice; not sure why.
