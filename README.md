@@ -10,13 +10,13 @@ Popclip is an app that allows you to run certain actions/functions on text you h
 
 - [Fancy Text [WIP]](/Fancy%20Text)
 
-- [Sci-Hub](Sci-Hub/README.md)
+- [Sci-Hub](/Sci-Hub)
 
-- [SpOngeboB moCKInG TexT](SpOngeboB%20moCKInG%20TexT/README.md)
+- [SpOngeboB moCKInG TexT](/SpOngeboB%20moCKInG%20TexT)
 
-- [UPPERCASE](UPPERCASE/README.md)
+- [UPPERCASE](/UPPERCASE)
 
-- [lowercase](lowercase/README.md)
+- [lowercase](/lowercase)
 
 ## How to Install an Extension
 
