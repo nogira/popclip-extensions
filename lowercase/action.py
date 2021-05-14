@@ -35,4 +35,4 @@ import random as rand
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(str(current_dir) + '/lib')
 outputString = os.environ.get('POPCLIP_TEXT', '').lower()
-print(outputString)
+print(outputString, end='')
