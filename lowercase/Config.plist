@@ -19,6 +19,10 @@
 			<string>paste-result</string>
 			<key>Restore Pasteboard</key>
 			<true/>
+			<key>Requirements</key>
+			<array>
+				<string>paste</string>
+			</array>
 		</dict>
 	</array>
 	<key>Extension Identifier</key>
