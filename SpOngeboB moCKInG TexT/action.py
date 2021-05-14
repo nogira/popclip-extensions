@@ -41,4 +41,4 @@ for char in inputString:
 		outputString += char
 	else:
 		outputString += char.upper()
-print(outputString)
+print(outputString, end='')
