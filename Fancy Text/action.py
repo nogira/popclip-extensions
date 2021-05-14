@@ -167,7 +167,7 @@ class Application(tk.Tk):
 
 		def clicked(option_compare, inputStr):
 			outputString = convert_text(option_compare, inputStr)
-			print(outputString)
+			print(outputString, end='')
 			quit()
 
 		for button in buttons:
