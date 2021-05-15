@@ -167,7 +167,12 @@ class Application(tk.Tk):
 
 		def clicked(option_compare, inputStr):
 			outputString = convert_text(option_compare, inputStr)
-			print(outputString)
+
+			# using print adds a new line after pasting, and this cannot be fixed with end='', but this works
+			import subprocess
+			subprocess.run("pbcopy", text=True, input=outputString)
+			subprocess.run("pbpaste")
+			
 			quit()
 
 		for button in buttons:
