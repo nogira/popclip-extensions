@@ -35,10 +35,15 @@ import random as rand
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(str(current_dir) + '/lib')
 inputString = os.environ.get('POPCLIP_TEXT', '').lower()
+
 outputString = ''
 for char in inputString:
 	if rand.randint(0,1) == 0:
 		outputString += char
 	else:
 		outputString += char.upper()
-print(outputString)
+
+# using print adds a new line after pasting, and this cannot be fixed with end='', but this works
+import subprocess 
+subprocess.run("pbcopy", text=True, input=outputString)
+subprocess.run("pbpaste")
