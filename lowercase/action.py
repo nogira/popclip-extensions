@@ -35,4 +35,8 @@ import random as rand
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(str(current_dir) + '/lib')
 outputString = os.environ.get('POPCLIP_TEXT', '').lower()
-print(outputString)
+
+# using print adds a new line after pasting, and this cannot be fixed with end='', but this works
+import subprocess 
+subprocess.run("pbcopy", text=True, input=outputString)
+subprocess.run("pbpaste")
