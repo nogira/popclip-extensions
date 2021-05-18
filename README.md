@@ -32,7 +32,7 @@ Popclip is an app that allows you to run certain actions/functions on text you h
 
 <br>
 
-## Support Development
+## Support Me
 
 **Ethereum**: 0xf11547A47ebFa6a7Bd5d4626f7f13288156f5704
 
