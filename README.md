@@ -34,6 +34,8 @@ Popclip is an app that allows you to run certain actions/functions on text you h
 
 ## Support Me
 
+**Solana**: 7ZJtvZA773ia2ahV6mxPZQiGvcDqNfXMn3rMmJFpwHeQ
+
 **Ethereum**: 0xf11547A47ebFa6a7Bd5d4626f7f13288156f5704
 
 **Bitcoin**: bc1qnlsffdulhg0fz4fw2vt3ce3jes65x6c23wrg6w
