@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Fancy Text</string>
+			<string>Replace</string>
 			<key>Shell Script File</key>
 			<string>action.py</string>
 			<key>Script Interpreter</key>
@@ -28,11 +28,11 @@
 	<key>Extension Identifier</key>
 	<string>com.nogira.popclip-extensions.Fancy-Text</string>
 	<key>Extension Name</key>
-	<string>Fancy Text</string>
+	<string>Replace</string>
 	<key>Extension Long Name</key>
-	<string>Fancy Text</string>
+	<string>Replace</string>
 	<key>Extension Description</key>
-	<string>Convert selected text to fancy text. You can choose from many different types.</string>
+	<string>Find and replace.</string>
 	<key>Required Software Version</key>
 	<integer>701</integer>
 	<key>Credits</key>

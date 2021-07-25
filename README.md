@@ -8,7 +8,7 @@ Popclip is an app that allows you to run certain actions/functions on text you h
 
 ## List of My Extensions:
 
-- [Fancy Text [WIP]](/Fancy%20Text)
+- [Find & Replace](/Find%20&%20Replace)
 
 - [Sci-Hub](/Sci-Hub)
 
@@ -18,15 +18,15 @@ Popclip is an app that allows you to run certain actions/functions on text you h
 
 - [lowercase](/lowercase)
 
+- [Fancy Text [WIP]](/Fancy%20Text)
+
 - Open to Requests
 
 ## How to Install an Extension
 
 1. Download an extension folder (e.g. UPPERCASE)
 2. Add `.popclipext` to the end of the folder name
-3. Compress this file into a `.zip`
-4. Change the `.zip` at the end of the file name to `.popclipextz` (note the z at the end, compared to step 2)
-5. Open this file, and it should install to the popclip app
+3. Open (double click) this file, and it should install to the popclip app
 
 <br>
 
