@@ -4,6 +4,8 @@ Popclip is an app that allows you to run certain actions/functions on text you h
 - [Link to Popclip](https://pilotmoon.com/popclip/)
 - [Information on how to make your own extension.](https://github.com/pilotmoon/PopClip-Extensions)
 
+<img width="400" src="https://pilotmoon.com/popclip/extensions/demo/Highlight-demo.gif">
+
 <br>
 
 ## List of My Extensions:
