@@ -29,68 +29,65 @@
 #
 # -------------------------------------------------------------------------------
 
-import sys
-import os
+import sys, os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(str(current_dir) + '/lib')
 inputString = os.environ.get('POPCLIP_TEXT', '')
-
 
 import tkinter as tk
 
 class Application(tk.Tk):
 	def __init__(self):
 		tk.Tk.__init__(self)
-		self.title('Fancy Text')
+		self.title('Find & Replace')
 		x_pad = 10
 		y_pad = 10
 
+		the_font = ("Arial",12)
 
-		lbl_1 = tk.Label(self)
-		lbl_1.config(text="Find", font=("Arial",12))
-		lbl_1.grid(column=1, row=1, padx=(x_pad, 0), pady=y_pad)
+		find_lbl = tk.Label(self)
+		find_lbl.config(text="Find", font=the_font)
+		find_lbl.grid(column=1, row=1, padx=(x_pad, 0), pady=y_pad)
 
-		text_box1 = tk.Entry(self)
-		text_box1.config()
-		text_box1.grid(column=2, row=1, padx=x_pad, pady=y_pad)
+		find_textbox = tk.Entry(self)
+		find_textbox.grid(column=2, row=1, padx=x_pad, pady=y_pad)
 		
 
-		lbl_2 = tk.Label(self)
-		lbl_2.config(text="Replace", font=("Arial",12))
-		lbl_2.grid(column=1, row=2, padx=(x_pad, 0), pady=0)
+		replace_lbl = tk.Label(self)
+		replace_lbl.config(text="Replace", font=the_font)
+		replace_lbl.grid(column=1, row=2, padx=(x_pad, 0), pady=0)
 
-		text_box2 = tk.Entry(self)
-		text_box2.config()
-		text_box2.grid(column=2, row=2, padx=x_pad, pady=0)
+		replace_textbox = tk.Entry(self)
+		replace_textbox.config()
+		replace_textbox.grid(column=2, row=2, padx=x_pad, pady=0)
 
 
-		lbl_1.grid(pady=y_pad)
+		find_lbl.grid(pady=y_pad)
 
 
 		def clicked():
 			
-			find = text_box1.get()\
-				.replace("\\t", "\t")\
-				.replace("\\n", "\n")
-			replace = text_box2.get()\
-				.replace("\\t", "\t")\
-				.replace("\\n", "\n")
+			find = find_textbox.get()\
+						.replace("\\t", "\t")\
+						.replace("\\n", "\n")
+			replace = replace_textbox.get()\
+						.replace("\\t", "\t")\
+						.replace("\\n", "\n")
 
-			# using print adds a new line after pasting, and this cannot be fixed with end='', but this works
+			# modify input by replacing find term with replace term
+			output = inputString.replace(find, replace)
+
+			# using print adds a new line after pasting, and this cannot be 
+			# fixed with end='', but using copy/paste works
 			import subprocess
-			subprocess.run("pbcopy", text=True, input=inputString.replace(find, replace))
+			subprocess.run("pbcopy", text=True, input=output)
 			subprocess.run("pbpaste")
 			
 			quit()
 
-		btn_1 = tk.Button(self, command=lambda : clicked())
-		btn_1.config(text="Replace All", font=("Arial",12))
-		btn_1.grid(column=2, row=3, padx=x_pad, pady=(0, y_pad))
-
-
-
-
-		btn_1.grid(pady=y_pad)
+		done_btn = tk.Button(self, command=clicked)
+		done_btn.config(text="Replace All", font=the_font)
+		done_btn.grid(column=2, row=3, padx=x_pad, pady=y_pad)
 
 
 app = Application()
