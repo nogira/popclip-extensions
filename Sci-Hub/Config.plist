@@ -12,7 +12,7 @@
 			<key>Image File</key>
 			<string>icon.png</string>
 			<key>Regular Expression</key>
-			<string>10.[-._;()/:a-z0-9A-Z]+</string>
+			<string>10\.\S*</string>
 		</dict>
 	</array>
 	<key>Extension Identifier</key>
