@@ -66,13 +66,9 @@ class Application(tk.Tk):
 
 
 		def clicked():
-			
-			find = find_textbox.get()\
-						.replace("\\t", "\t")\
-						.replace("\\n", "\n")
-			replace = replace_textbox.get()\
-						.replace("\\t", "\t")\
-						.replace("\\n", "\n")
+			f = lambda x: x.replace("\\t", "\t").replace("\\n", "\n")
+			find = f(find_textbox.get())
+			replace = f(replace_textbox.get())
 
 			# modify input by replacing find term with replace term
 			output = inputString.replace(find, replace)

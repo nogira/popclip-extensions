@@ -1,4 +1,4 @@
-# -------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 #
 # MIT License
 #
@@ -22,28 +22,59 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-# -------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 #
 # credit to https://github.com/tinytamb/popclip-sqlparse for how to
 # retrieve the selected text to process
 #
-# -------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
-import sys
-import os
-import random as rand
-current_dir = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(str(current_dir) + '/lib')
-inputString = os.environ.get('POPCLIP_TEXT', '').lower()
+# import sys
+# # get absolute path of folder this file is in
+# # current_dir = os.path.dirname(os.path.abspath(__file__))
+# # sys.path.append(str(current_dir) + '/lib')
+# # HMMMMMM actually i think i can just get the first entry in sys.path and its 
+# # the same
+# # append path to sys.path so able to access the python module within the lib 
+# # folder
+# sys.path.append(sys.path[0] + '/lib')
 
-outputString = ''
-for char in inputString:
-	if rand.randint(0,1) == 0:
-		outputString += char
-	else:
-		outputString += char.upper()
+import os, random
 
-# using print adds a new line after pasting, and this cannot be fixed with end='', but this works
-import subprocess 
-subprocess.run("pbcopy", text=True, input=outputString)
-subprocess.run("pbpaste")
+# get 'POPCLIP_TEXT' value from os.environ dict, else return empty string
+input_string = os.environ.get('POPCLIP_TEXT', '').lower()
+
+output_string = ''
+# track number of consecutive same case to prevent > 3 in a row same case
+num_consecutive_lower = 0
+num_consecutive_upper = 0
+
+def add_char(case):
+    global output_string
+    global num_consecutive_lower
+    global num_consecutive_upper
+    if case == 'upper':
+        output_string += char.upper()
+        num_consecutive_upper += 1
+        num_consecutive_lower = 0
+    else:
+        output_string += char
+        num_consecutive_lower += 1
+        num_consecutive_upper = 0
+
+for char in input_string:
+    if num_consecutive_upper == 3:
+        add_char('lower')
+    elif num_consecutive_lower == 3:
+        add_char('upper')
+    else:
+        if random.randint(0,1) == 0:
+            add_char('lower')
+        else:
+            add_char('upper')
+
+# using print adds new line after paste. cannot be fixed with end=''
+# copy and paste works instead
+import subprocess
+subprocess.run('pbcopy', text=True, input=output_string)
+subprocess.run('pbpaste')
