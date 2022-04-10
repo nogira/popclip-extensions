@@ -1,0 +1,22 @@
+{
+  "Extension Name": "moCKInG TexT",
+  "Extension Long Name": "SpOngeboB moCKInG TexT",
+  "Extension Description": "Convert selected text to spongebob mocking text.",
+  "Credits": {
+    "Name": "nogira",
+    "Link": "https://github.com/nogira"
+  },
+  "Extension Identifier": "com.nogira.popclip-extensions.SpOngeboB-moCKInG-TexT",
+  "Required Software Version": 701,
+
+  "Action": {
+    "Title": "SpOngeboB moCKInG TexT",
+    "Script Interpreter" : "\/bin\/sh",
+    "Shell Script File": "shell.sh",
+    "Image File": "icon.png",
+    "Long Running": true,
+    "After": "paste-result",
+    "Restore Pasteboard": true,
+    "Requirements": ["paste"]
+  }
+}

@@ -12,4 +12,4 @@ testing this extension|tEStinG This extenSIOn
 
 ### Requirements
 
-- [Python 3](https://www.python.org/downloads/)
+- Deno (path in shell.sh file)

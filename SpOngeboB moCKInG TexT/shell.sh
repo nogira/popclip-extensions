@@ -1,0 +1,1 @@
+/opt/homebrew/bin/deno run --allow-env "./action.js"
