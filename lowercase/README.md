@@ -7,3 +7,13 @@ Converts all selected text to lowercase.
 ### Requirements
 
 - [Python 3](https://www.python.org/downloads/)
+
+## Javascript Version
+
+```js
+# popclip
+name: lowercase
+icon: square filled ab
+javascript: return popclip.input.text.toLowerCase()
+after: paste-result
+```
