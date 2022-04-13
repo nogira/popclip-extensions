@@ -9,7 +9,7 @@ Converts all selected text to uppercase.
 - [Python 3](https://www.python.org/downloads/)
 
 
-# Javascript Version
+## Javascript Version
 
 ```js
 # popclip
