@@ -1,0 +1,15 @@
+{
+  "name": "Find & Replace",
+  "icon": "icon.png",
+  "identifier": "com.nogira.popclip-extensions.replace",
+  "popclip version": 3785,
+
+  "action": {
+    "script interpreter": "/bin/sh",
+    "shell script file": "shell.sh",
+    "Long Running": true,
+    "After": "paste-result",
+    "Restore Pasteboard": true,
+    "Requirements": ["paste"]
+  }
+}
