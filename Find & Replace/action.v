@@ -15,7 +15,7 @@ mut:
 
 fn main() {
 	mut app := &App{
-		input: 'this is a sentence\nthis is a sentence'//os.getenv("POPCLIP_FULL_TEXT")
+		input: os.getenv("POPCLIP_FULL_TEXT")
 		find : ''
 		replace : ''
 		is_regex : true
