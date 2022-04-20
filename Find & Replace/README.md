@@ -9,26 +9,28 @@ Window pops up that allows you to enter a character/string to find, and a charac
 
 ## Requirements:
 
-This should run with no dependencies on apple silicon, but if on intel, you just compile the binary yourself.
+This should run with no dependencies on apple silicon, but if on intel, you must compile the binary yourself:
 
-1. Install latest version of [V](https://vlang.io/).
+<br>
+
+**1.** Install latest version of [V](https://vlang.io/).
 ```shell
 # install
 brew install vlang
 # update
 v up
 ```
-2. Install latest version of [ui](https://github.com/vlang/ui)
+**2.** Install latest version of [ui](https://github.com/vlang/ui)
 ```shell
 v install ui
 ```
-3. Set `Find & Replace` folder as current directory.
+**3.** Set `Find & Replace` folder as current directory.
 ```shell
 # example
 cd "Downloads/Find & Replace"
 ```
-4. Compile binary.
+**4.** Compile binary.
 ```shell
 v -prod ./action.v
 ```
-5. Now install the popclip extension like usual.
+**5.** Now install the popclip extension like usual.
